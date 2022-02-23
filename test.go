@@ -3,6 +3,19 @@
 package main
 
 
+/*
+
+require (
+  <remote url> <version>
+  )
+
+replace (
+  <remote url> => <local path/url> <version>
+  )
+
+  */
+
+
 import (
   // "context"
 	"fmt"

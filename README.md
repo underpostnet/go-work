@@ -20,13 +20,3 @@ https://www.tutorialspoint.com/go/go_logical_operators.htm
 
 
 ### go.mod
-
-
-
-  require (
-    <remote url> <version>
-    )
-
-  replace (
-    <remote url> => <local path/url> <version>
-    )  
