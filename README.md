@@ -23,7 +23,13 @@ https://www.tutorialspoint.com/go/go_logical_operators.htm
 `go mod init example.com`
 
 
-`touch main.go`
+`go get rsc.io/quotes`
+
+
+`touch main.go` (npm install touch-cli -g)
 
 
 `go run . `
+
+
+In Go, `:=` is for declaration + assignment, whereas `=` is for assignment only.
