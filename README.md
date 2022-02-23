@@ -33,3 +33,10 @@ https://www.tutorialspoint.com/go/go_logical_operators.htm
 
 
 In Go, `:=` is for declaration + assignment, whereas `=` is for assignment only.
+
+
+
+
+
+
+Don't communicate by sharing memory, share memory by communicating.
