@@ -13,6 +13,9 @@ replace (
   <remote url> => <local path/url> <version>
   )
 
+	require "hello" v0.0.0
+	replace "hello" v0.0.0 => "c:/dd/go-work"
+
   */
 
 
@@ -27,18 +30,22 @@ import (
 )
 
 
-
 func main() {
 
 
-  fmt.Println("test");
+  fmt.Println("test")
+
+
 }
 
 
-// test
 
-/*
 
-test
 
-*/
+
+
+
+
+
+
+// end
