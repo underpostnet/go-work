@@ -1,5 +1,5 @@
 
-### Go work testing
+### Go lang work testing
 
 
 
@@ -23,10 +23,14 @@ https://www.tutorialspoint.com/go/go_logical_operators.htm
 
 
 
-` require (
+`
+
+  require (
     <remote url> <version>
     )
 
   replace (
     <remote url> => <local path/url> <version>
-    )  `
+    )  
+
+`
