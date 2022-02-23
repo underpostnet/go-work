@@ -23,8 +23,6 @@ https://www.tutorialspoint.com/go/go_logical_operators.htm
 
 
 
-`
-
   require (
     <remote url> <version>
     )
@@ -32,5 +30,3 @@ https://www.tutorialspoint.com/go/go_logical_operators.htm
   replace (
     <remote url> => <local path/url> <version>
     )  
-
-`
