@@ -4,11 +4,13 @@
 
 ` go run <script>.go `
 
+https://www.golangprograms.com/goroutines-and-channels-example.html
+
+
+https://www.golangprograms.com/go-language/integer-float-string-boolean.html
+
 
 https://tiagoamp.medium.com/go-lang-practical-reference-37eaa78bfca7
-
-
-https://www.tutorialspoint.com/go/go_logical_operators.htm
 
 
 ### Example
