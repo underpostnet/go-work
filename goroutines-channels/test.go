@@ -36,15 +36,29 @@ package main
 import (
 	"fmt"
 	"strconv"
+	"time"
+	"math/rand"
 )
+
+
+func RandomInt(min int, max int) int {
+    return rand.Intn((max + 1) - min) + min
+}
 
 func main() {
 	ch := make(chan string)
-
 	for i := 0; i < 10; i++ {
 		go func(i int) {
 			for j := 0; j < 10; j++ {
-				ch <- "Goroutine : " + strconv.Itoa(i)
+
+				// time.Sleep(time.Duration(rand.Int31n(1000)) * time.Millisecond)
+				
+				randomWait := RandomInt(1, 5)
+					fmt.Println(" pre random wait -> ")
+					fmt.Println(randomWait)
+				time.Sleep(time.Duration(randomWait) * time.Second)
+				ch <- "Goroutine : " + strconv.Itoa(i) + " randomWait: " + strconv.Itoa(randomWait)
+
 			}
 		}(i)
 	}
