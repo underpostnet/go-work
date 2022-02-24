@@ -13,6 +13,9 @@ https://www.golangprograms.com/go-language/integer-float-string-boolean.html
 https://tiagoamp.medium.com/go-lang-practical-reference-37eaa78bfca7
 
 
+https://www.tutorialesprogramacionya.com/goya/index.php?inicio=0
+
+
 ### Example
 
 

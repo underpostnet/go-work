@@ -49,9 +49,13 @@ func main() {
 		}(i)
 	}
 
+	fmt.Println(" async ")
+
 	for k := 1; k <= 100; k++ {
 		fmt.Println(k, <-ch)
 	}
+
+	fmt.Println(" end ")
 }
 
 
